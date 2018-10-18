@@ -22,6 +22,8 @@ int main(int argc, char *argv[]) {
   int_value = 10;
   int_pointer = &int_value;
 
+  /*I assign the pointer with the address of int_value*/
+
   print_integers(int_value, int_pointer);
   change_integers(int_value, int_pointer);
   print_integers(int_value, int_pointer);
